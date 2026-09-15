@@ -1,0 +1,23 @@
+{
+  "name": "Multi-Vendor Marketplace",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye",
+  "forwardPorts": [5000, 5173],
+  "portsAttributes": {
+    "5173": {
+      "label": "Frontend (React / Vite)",
+      "onAutoForward": "openBrowser"
+    },
+    "5000": {
+      "label": "Backend (Express API)",
+      "onAutoForward": "silent"
+    }
+  },
+  "postCreateCommand": "npm run install:all",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  }
+}
