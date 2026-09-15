@@ -3,6 +3,8 @@
 > **Auriga IT — Placement Drive 2026 | Round 2: AI Assist Round (AIR)**  
 > Production-grade full-stack marketplace featuring multi-tenancy, atomic inventory reservation, real-time WebSocket order tracking, role-based access control (RBAC), and automated testing.
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/harshitrathore97/multi-vendor-marketplace)
+
 ---
 
 ## 🌟 Key Highlights & Engineering Features
